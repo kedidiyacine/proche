@@ -51,6 +51,7 @@ export const authOptions: NextAuthOptions = {
       clientId: env.ZOOM_CLIENT_ID,
       clientSecret: env.ZOOM_CLIENT_SECRET,
     }),
+
     /**
      * ...add more providers here.
      *
